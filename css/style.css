@@ -11,6 +11,7 @@
     max-width:1200px;
     width:90%;
     margin:0 auto;
+
 }
     
 
@@ -42,6 +43,8 @@ body::-webkit-scrollbar-thumb{
 
 /* ######################################################################################################### */
 
+
+/* ###################################### Header Styling ################################### */
 li{
     
     width: auto;
@@ -118,6 +121,7 @@ nav{
 .heading{
     font-size: 4rem;
     text-shadow: 0 0 1rem orange ;
+    
 }
 
 .slogon{
@@ -131,4 +135,57 @@ nav{
     height: 200px;
     width: 50vw;
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+}
+
+
+/* ################################################ Services section styling ############################### */
+
+.service_content{
+    background-color: rgb(236, 236, 236);
+    padding: 5rem 0;
+}
+
+.row{
+    /* border: 1px solid black; */
+    height: 300px;
+   
+    display: flex;
+    border-radius: 100px;
+}
+
+.row .image{
+    width: 50%;
+    /* border: 1px solid black; */
+    background-position: center;
+    
+}
+.row .text{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2rem;
+    text-align: center;
+}
+
+.row1 .image img{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.row2 .image img{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.row1{
+    margin-bottom: 1.6rem;
+    box-shadow: 0 0 1rem orange ;
+}
+
+.row2{
+    margin-bottom: 1.6rem;
+    box-shadow: 0 0 1rem orange ;
 }
