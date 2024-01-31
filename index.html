@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nandi Enterprises</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/39dcf4e709.js" crossorigin="anonymous"></script>
     <script src="./script.js" defer></script>
 </head>
 <body>
@@ -16,18 +18,20 @@
                 <li class="Services"><a  class="btn" onclick="scrollToSection('Service')" style="cursor: pointer;">Services</a> </li>
                 <li class="Contact_us"><a href="./contactUs.html" class="btn">Contact us</a> </li>
             </ul>
-            </div>
         </nav>
         <div class="headerContent">
             <h1 class="heading text-visible ">Nandi Enterprises</h1>
             <p class="text-visible slogon">Your Trusted Insurance Advisor and Property Prosperity</p>
 
-            <a href="./index.html" class="btn" style="margin-top: 30px;">Get Started</a>
+            <a class="btn" style="margin-top: 30px; cursor: pointer;" onclick="scrollToSection('Service')">Get Started</a>
         </div>
     </header>
 
     <section class="service_content" id="Service">
         <div class="container">
+            <div class="headline">
+                <h1>Services</h1>
+            </div>
             <div class=" row row1">
                 <div class="image ">
                     <img src="./images/firmbee-com-SpVHcbuKi6E-unsplash.jpg" alt="">
@@ -46,6 +50,16 @@
             </div>
         </div>
     </section>
+
+
+    <footer class="footer">
+        <div class="social-links">
+            <i class="fa-brands fa-facebook fa-2x""></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+        </div>
+        <p>Nandi Enterprises &copy; 2024, All rights reserverd</p>
+    </footer>
     
 </body>
 </html>
