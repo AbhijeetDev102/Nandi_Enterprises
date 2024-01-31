@@ -11,10 +11,10 @@ document.addEventListener("scroll", ()=>{
 })
 
 // #################################### smooth scroll to services  ###################################
-// function scrollToSection(Service) {
-//     var section = document.getElementById(Service);
-//     window.scrollTo({
-//       top: section.offsetTop,
-//       behavior: 'smooth'
-//     });
-//   }
+function scrollToSection(Service) {
+    var section = document.getElementById(Service);
+    window.scrollTo({
+      top: section.offsetTop,
+      behavior: 'smooth'
+    });
+  }
