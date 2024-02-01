@@ -306,7 +306,7 @@ nav{
 
 /* ###################################### reponsiveness ################### */
 
-@media (width<=560px){
+@media (max-width:1000px){
 
     html{
         font-size: 10px;
