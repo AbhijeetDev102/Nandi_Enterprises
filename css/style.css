@@ -301,3 +301,39 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* ###################################### reponsiveness ################### */
+
+@media (width<=560px){
+
+    html{
+        font-size: 10px;
+    }
+
+    header{
+        height: 80vh;
+    }
+    nav{
+        height: 90px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .logo a img{
+        height: 4rem;
+        width: 6rem;
+        padding: 0;
+    }
+
+    .headerContent{
+        width: 60vw;
+    }
+
+    /* ######################################## service section ################ */
+
+    .row .text{
+        padding: 3rem;
+    }
+    
+    
+}
