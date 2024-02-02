@@ -158,9 +158,6 @@ nav{
 }
 
 .row{
-    /* border: 1px solid black; */
-    /* height: 300px; */
-   
     display: flex;
     border-radius: 100px;
     width: auto;
@@ -168,16 +165,20 @@ nav{
 
 .row .image{
     width: 50%;
-    /* border: 1px solid black; */
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .row .text{
     width: 50%;
-    /* border: 1px solid black; */
     padding: 2rem;
-    text-align: center;
     color: rgb(65, 63, 63);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .row1 .image img{
