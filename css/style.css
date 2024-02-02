@@ -159,10 +159,11 @@ nav{
 
 .row{
     /* border: 1px solid black; */
-    height: 300px;
+    /* height: 300px; */
    
     display: flex;
     border-radius: 100px;
+    width: auto;
 }
 
 .row .image{
@@ -306,7 +307,7 @@ nav{
 
 /* ###################################### reponsiveness ################### */
 
-@media (max-width:500px){
+@media (max-width:560px){
 
     html{
         font-size: 10px;
@@ -331,7 +332,8 @@ nav{
         width: 60vw;
     }
 
-    /* ######################################## service section ################ */
+    /* ######################################## service section ########################################### */
+
 
     .row1{
         flex-direction: column;
@@ -343,7 +345,7 @@ nav{
     }
     .row .image{
         width: 100%;
-        height: 50%;
+        
     }
 
     .row1 .image img{
@@ -354,9 +356,10 @@ nav{
     }
     .row .text{
         width: 100%;
-        height: 50%;
         padding-top: 10px;
     }
     
     
 }
+
+
